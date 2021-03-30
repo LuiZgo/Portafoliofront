@@ -14,8 +14,8 @@ p{
     margin-bottom: 1.6em;
 
 }
-.container{
-    width: 100%;
+.main__container{
+    width: 85%;
     max-width: 850px;
     margin: 0 auto;
 }   
@@ -48,49 +48,48 @@ p{
     align-items: center;
 
 }
-.navigation ul{
+.header__navegacion ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.navigation ul li{
+.header__navegacion ul li{
     display: inline-block;
 }
-.navigation ul li a{
+.header__navegacion ul li a{
     display: block;
     padding: 0.5rem 1em;
     transition: all 0.4s linear;
     border-radius: 5px;
 }
-.navigation ul li a:hover{
+.header__navegacion ul li a:hover{
 background: #24f2ff;
 }
 .main{
     padding: 0.5rem;
 }
+
+
 .banner{
     left: 0;
     top: 0;
     width: 100%;
     height: 80%;
     background-color:#000000;
-    
- 
-
 }
-img#imagen_banner{
+.banner__imagen{
     display: block;
     margin: auto;
     width: 100%;
     max-width: 850px;
     min-width: 400px;
 }
-.sobremi h1{
+.titulo__sobremi{
 
     text-align: center;
 }
 
-.trabajos_div{
+.titulo__trabajos{
     text-align: center;
 }
 
@@ -105,6 +104,7 @@ img#imagen_banner{
 
 
 @media (max-width: 703px) {
+
     
     .navigation ul li{
         display: flex;
