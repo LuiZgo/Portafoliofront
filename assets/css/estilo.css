@@ -1,25 +1,29 @@
-body{
+body {
     font-family: 'Share Tech Mono', monospace;
     color: #000000;
     font-size: 1.2rem;
     line-height: 1.6em;
     margin: 0;
 }
-h1{
+
+h1 {
     font-size: 2rem;
     line-height: 1.3em;
 
 }
-p{
+
+p {
     margin-bottom: 1.6em;
 
 }
-.main__container{
+
+.main__container {
     width: 85%;
     max-width: 850px;
     margin: 0 auto;
-}   
-.header{
+}
+
+.header {
 
     background: #000000;
     color: white;
@@ -30,70 +34,90 @@ p{
     width: 100%;
 
 }
-.header a{
+
+.header a {
     color: #F52A8C;
     text-decoration: none;
 
 }
-.logo{
+
+.logo {
     letter-spacing: 15px;
     font-size: 1.0em;
 
 }
 
-.logo-nav-container{
+.logo-nav-container {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.header__navegacion ul{
+
+.header__navegacion ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.header__navegacion ul li{
+
+.header__navegacion ul li {
     display: inline-block;
 }
-.header__navegacion ul li a{
+
+.header__navegacion ul li a {
     display: block;
     padding: 0.5rem 1em;
     transition: all 0.4s linear;
     border-radius: 5px;
 }
-.header__navegacion ul li a:hover{
-background: #24f2ff;
+
+.header__navegacion ul li a:hover {
+    background: #24f2ff;
 }
-.main{
-    padding: 0.5rem;
+
+.main {
+    padding: 0.2rem;
 }
 
 
-.banner{
+.banner {
     left: 0;
     top: 0;
     width: 100%;
     height: 80%;
-    background-color:#000000;
+    background-color: #000000;
 }
-.banner__imagen{
+
+.banner__imagen {
     display: block;
     margin: auto;
     width: 100%;
     max-width: 850px;
     min-width: 400px;
 }
-.titulo__sobremi{
 
+.titulo__sobremi {
+    
     text-align: center;
 }
 
-.titulo__trabajos{
+.imagen__sobremi {
+
+    display: inline;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 5px solid #000000;
+    
+}
+
+.titulo__trabajos {
     text-align: center;
 }
 
-.footer{
+.footer {
     background: #000000;
     padding: 1.5rem 0;
     color: #F5DE2A;
@@ -105,25 +129,27 @@ background: #24f2ff;
 
 @media (max-width: 703px) {
 
-    
-    .navigation ul li{
+
+    .navigation ul li {
         display: flex;
     }
-    .navigation ul li a{
+
+    .navigation ul li a {
         display: block;
         padding: 0.5rem 1em;
         transition: all 0.4s linear;
         border-radius: 5px;
     }
-    .navigation ul li a:hover{
-    background: #24f2ff;
-    }
-  
-    .header{
-        position: relative;
-    
+
+    .navigation ul li a:hover {
+        background: #24f2ff;
     }
 
-     
+    .header {
+        position: relative;
+
+    }
+
+
 
 }
