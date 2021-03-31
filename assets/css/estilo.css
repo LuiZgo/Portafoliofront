@@ -97,12 +97,12 @@ p {
     min-width: 400px;
 }
 
-.titulo__sobremi {
-    
+.sobremi__titulo {
+
     text-align: center;
 }
 
-.imagen__sobremi {
+.sobremi__imagen {
 
     display: inline;
     margin: auto;
@@ -110,10 +110,10 @@ p {
     height: 200px;
     border-radius: 200px;
     border: 5px solid #000000;
-    
+
 }
 
-.titulo__trabajos {
+.trabajos__titulo {
     text-align: center;
 }
 
@@ -130,18 +130,18 @@ p {
 @media (max-width: 703px) {
 
 
-    .navigation ul li {
+    .header__navegacion ul {
         display: flex;
     }
 
-    .navigation ul li a {
+    .header__navegacion ul li a {
         display: block;
         padding: 0.5rem 1em;
         transition: all 0.4s linear;
         border-radius: 5px;
     }
 
-    .navigation ul li a:hover {
+    .header__navegacion ul li a:hover {
         background: #24f2ff;
     }
 
