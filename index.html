@@ -2,101 +2,197 @@
 <html lang="en">
 
 <head>
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="assets/sccs/main.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="dist/fonts.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+
+
+
 </head>
 
-<body>
-    <header class="header">
-        <div class="main__container logo-nav-container">
-            <a href="#" class="logo">LUIZ </a>
-            <nav class="header__navegacion">
-                <ul>
-                    <li><a href="#sobre">Sobre mí</a></li>
-                    <li><a href="#trabajos">Trabajos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
+<body class="p-0">
+
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <nav class="navbar navbar-expand-lg navbar navbar-sombra f-negro fixed-top">
+                    
+
+                    <a class=" letra text-fuente text-celeste navbar-brand" href="#">Luiz</a>
+                      <span class="navbar-toggler-icon text-verde"></span>
+                      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#F52A8C;">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarColor01">
+                      <ul class="navbar-nav mr-auto">
+                    
+                        <li class="nav-item">
+                          <a class="navbar-hov letra text-fuente text-rosado  navbar-brand nav-link" href="#">Ingresar</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="navbar-hov letra text-fuente text-rosado navbar-brand nav-link" href="#">Contacto</a>
+                        </li>
+                       
+                      </ul>
+                      <form class="form-inline">
+                        
+                      </form>
+                    </div>
+                  </nav>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
-    </header>
-    <div class="banner">
-        <img src="assets/images/banner2.png" class="banner__imagen">
+        <div class="row  mt-50">
+            <div class="col-1  f-negro  ">
+
+            </div>
+            <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10 d-flex align-items-center  f-negro"  style="height: 658px;">
+                <img src="dist/images/banner2.png" class="img-fluid " style="display: block; margin:auto;">
+            </div>
+            <div class="col-1 f-negro ">
+                <div class="social">
+                    <ul>
+                        <li><a class="icon-facebook2" href=""></a></li>
+                        <li><a class="icon-instagram" href=""></a></li>
+                        <li><a class="icon-whatsapp" href=""></a></li>
+                        <li><a class="icon-youtube" href=""></a></li>
+                        <li><a class="icon-github" href=""></a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+    
+        <div class="row">
+            <div class="col-1">
+            </div>
+
+            <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10 ">
+                <h1 class="text-center text-fuente">Sobre mi</h1>
+                <br>
+                <p class="text-justify text-fuente">
+                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reprehenderit optio quidem inventore dolor totam illo tenetur facilis soluta facere voluptates doloremque, fuga quas, atque quis doloribus laboriosam voluptatem odit.
+                </p>
+                <br>
+
+              
+               
+
+                <br>
+
+            </div>
+
+            <div class="col-1">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-1">
+
+            </div>
+            
+            <div class="col-1">
+
+            </div>
+
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-1">
+
+            </div>
+            <div class=" col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                <br>
+                <h1 class="text-center text-fuente">Mis trabajos.</h1>
+                <br>
+                <p class="text-justify text-fuente">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga cumque eligendi dignissimos porro quo error ipsum voluptate corrupti, tempore iusto magni recusandae consectetur veritatis quibusdam ratione eveniet inventore sapiente! Iusto!
+                </p>
+
+            </div>
+            <div class="col-1">
+
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-1">
+
+            </div>
+            <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10 ">
+
+                <div class="jumbotron navbar-sombra">
+                
+                    <h1 class="text-fuente">Contacto</h1>
+                    <br>
+                    <form>
+                        <div class="form-group">
+                            <label class="text-fuente"for="exampleInputname">Nombre</label>
+                            <input type="name" class="form-control" id="name">
+                        </div>
+                            <div class="form-group">
+                                <label class="text-fuente"for="name">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-fuente text-muted">No compartiremos tu e-mail con nadie.</small>
+                            </div>
+                            <div class="form-group">
+                                <label class="text-fuente"for="exampleInputphone">Telefono</label>
+                                <input type="phone" class="form-control" id="exampleInputphone">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-fuente"for="exampleInputmessage">Mensaje</label>
+                                <input type="message" class="form-control"  id="exampleInputmessage">
+                            </div>
+                            <button type="submit" class="btn btn-info btn-block"><span class="text-fuente"> Enviar</span></button>
+                        </form>
+                
+                
+                </div>
+
+
+
+
+               
+
+            </div>
+            <div class="col-6">
+                
+            </div>
+        </div>
+        <br>
+        <div class="row">
+
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col f-negro footer text-center navbar-espaletra text-fuente text-celeste">
+                <br>
+                <a>por @Grupo4 <a>
+            </div>
+           
+        </div>
+
+
+
+
+
+
+
     </div>
-    <main class="main">
-        <div class="main__container">
-            <section>
-                <div class="container__sobremi">
-                    <article>
-                        <a name='sobre'>
-                            <h1 class="sobremi__titulo">Sobre mí</h1>
-                        </a>
 
-                        <img src="assets/images/banner.png" class="sobremi__imagen">
+        <script src="dist/js/jquery-3.6.0.js"></script>
 
 
-
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nisi necessitatibus dolor
-                            quis
-                            architecto tempora reiciendis nesciunt consectetur, cumque non cupiditate, officiis, sit cum
-                            ratione soluta tenetur aliquam. Aspernatur, veniam.
-                        </p>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non nihil velit recusandae vitae
-                            consequuntur sapiente doloribus quasi sunt ipsum voluptatem, laudantium itaque dolorum vero
-                            corporis accusamus adipisci enim aut ullam.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, quaerat quos fugiat
-                            non
-                            atque earum nesciunt sequi ab unde in mollitia similique repudiandae blanditiis quasi
-                            consectetur rerum fuga qui ducimus?
-                        </p>
-                    </article>
-                </div>
-
-            </section>
-            <section>
-                <div class="container__trabajos">
-                    <article>
-                        <a name='trabajos'>
-                            <h1 class="trabajos__titulo">Trabajos</h1>
-                        </a>
-
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nisi necessitatibus dolor
-                            quis
-                            architecto tempora reiciendis nesciunt consectetur, cumque non cupiditate, officiis, sit cum
-                            ratione soluta tenetur aliquam. Aspernatur, veniam.
-                        </p>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non nihil velit recusandae vitae
-                            consequuntur sapiente doloribus quasi sunt ipsum voluptatem, laudantium itaque dolorum vero
-                            corporis accusamus adipisci enim aut ullam.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, quaerat quos fugiat
-                            non
-                            atque earum nesciunt sequi ab unde in mollitia similique repudiandae blanditiis quasi
-                            consectetur rerum fuga qui ducimus?
-                        </p>
-                    </article>
-                </div>
-            </section>
-
-        </div>
-
-    </main>
-    <footer class="footer">
-        <div class="footer">
-            <p>Hecho por @Luiz Gonzalez </p>
-        </div>
-    </footer>
+        <script src="dist/js/bootstrap.js"></script>
 </body>
 
 </html>
